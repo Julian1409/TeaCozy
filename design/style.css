@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  height: 69px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+}
+header img {
+  text-align: left;
+  margin-left: 10px;
+  height: 50px;
+  width: auto;
+}
+header nav {
+  text-decoration: underline;
+}
+.OurMission {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  background-image: url(/resources/BedfordBizarre.jpg);
+  align-items: center;
+}
+.OurMission div {
+  background-color: black;
+  width: 100%;
+
+}
+.FeaturedTea {
+  width: 1000px;
+}
+.FeaturedTea div {
+  display: flex;
+  justify-content: space-between;
+}
+.FeaturedTea img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
