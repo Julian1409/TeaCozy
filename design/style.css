@@ -45,3 +45,27 @@ header nav {
   width: 300px;
   margin-bottom: 10px;
 }
+.locations {
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  background-image: url(/resources/img-locations-background.jpg);
+  justify-content: center;
+  align-items: center;
+}
+.locations div {
+  width: 300px;
+  opacity: 1;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  margin: 15px 20px;
+}
+footer {
+  height: 200px;
+}
+.copyright {
+  text-align: left;
+  padding: 20px;
+  width: 100%;
+}
