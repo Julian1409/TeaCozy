@@ -5,27 +5,35 @@ body {
   color: seashell;
   opacity: 0.9;
   text-align: center;
+  align-content: center;
 }
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 69px;
+  width: 100%;
   position: fixed;
   z-index: 1;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 header img {
-  text-align: left;
   margin-left: 10px;
   height: 50px;
   width: auto;
 }
-header nav {
+header span {
   text-decoration: underline;
+  display: inline;
+  margin: 0px 5px;
 }
 .OurMission {
   height: 700px;
   width: 1200px;
   display: flex;
-  background-image: url(/resources/BedfordBizarre.jpg);
+  background-image: url(resources/BedfordBizarre.jpg);
+  background-size: cover;
   align-items: center;
 }
 .OurMission div {
@@ -33,27 +41,56 @@ header nav {
   width: 100%;
 
 }
+.featuredtea {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .FeaturedTea {
   width: 1000px;
-}
-.FeaturedTea div {
+  height: auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
-.FeaturedTea img {
+.FeaturedTea1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.FeaturedTea1 img {
   height: 200px;
   width: 300px;
-  margin-bottom: 10px;
+  margin: 10px 15px;
+}
+.FeaturedTea1 div {
+  display:flex;
+  flex-direction: column;
+}
+.FeaturedTea1 div h4 {
+  margin: 0px;
 }
 .locations {
   height: 500px;
   width: 1200px;
   display: flex;
-  background-image: url(/resources/img-locations-background.jpg);
+  background-image: url(resources/img-locations-background.jpg);
+  background-size: cover;
+  flex-direction:column;
+  space: 0px;
+}
+.locations h2 {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.locations1 {
+  display:flex;
   justify-content: center;
   align-items: center;
 }
-.locations div {
+.locations2 {
   width: 300px;
   opacity: 1;
   display: flex;
@@ -68,4 +105,12 @@ footer {
   text-align: left;
   padding: 20px;
   width: 100%;
+}
+.OurMission
+.FeaturedTea
+.locations
+footer
+.copyright {
+  position: relative;
+  top: 69px;
 }
